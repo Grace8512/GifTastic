@@ -29,7 +29,7 @@ $(document).ready(function(){
     $("#instrument-buttons").on("click","button",function(){
         var suchStr = $(this).text();
         if(suchStr !== "Add Instrument!"){
-        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + suchStr + "&api_key=IaYXOd8Mm6Vsyb18sU5VkPtSP5H0utcC&limit=10&rating=pg-13";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + suchStr + "&api_key=IaYXOd8Mm6Vsyb18sU5VkPtSP5H0utcC&limit=10&rating=pg";
         //q=검색어
         //&limit=10<-이미지 갯수 설정
         //&rating=g(모든연령),pg(일부연령제한)-13,r(성인연령)
